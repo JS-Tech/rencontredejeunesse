@@ -1,0 +1,34 @@
+body {
+  background: url('images/fond_2017.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: font-family: 'Libre Baskerville', serif;
+  position: relative;
+}
+
+.content {
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 25px;
+  line-height: 39px;
+  font-size: 18px;
+}
+
+.date {
+  font-weight: lighter;
+  color: #999;
+  font-style: italic;
+  letter-spacing: 7px;
+}
+
+.logo img {
+  width: 28px;
+}
