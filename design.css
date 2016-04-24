@@ -11,7 +11,7 @@ body {
   width: 300px;
   margin: auto;
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -20,7 +20,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 25px;
   line-height: 39px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .date {
@@ -28,6 +28,7 @@ h1 {
   color: #999;
   font-style: italic;
   letter-spacing: 7px;
+  font-size: 12px;
 }
 
 .logo img {
