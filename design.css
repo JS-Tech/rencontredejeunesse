@@ -4,7 +4,7 @@ body {
   height: 100vh;
   font-family: font-family: 'Libre Baskerville', serif;
   position: relative;
-  ov
+  overflow: hidden;
 }
 
 .content {
