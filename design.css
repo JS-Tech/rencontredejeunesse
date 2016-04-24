@@ -4,10 +4,11 @@ body {
   height: 100vh;
   font-family: font-family: 'Libre Baskerville', serif;
   position: relative;
+  ov
 }
 
 .content {
-  width: 400px;
+  width: 300px;
   margin: auto;
   position: absolute;
   bottom: 15%;
