@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <title>Rencontre de jeunesse chrétienne à Bulle - RJ</title>
     <link href="design.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
@@ -16,8 +17,20 @@
       </p>
     </div>
 
+    <div class="login"><strong>RJ Login</strong><img id="login-button" src="images/plus.png"> <span id="login-date">rencontre pour les leaders le 28 janvier 2017</span></div>
+
     <!-- <script src="javascripts/jquery-2.2.3.min.js"></script>
     <script src="javascripts/particules.js"></script> -->
+    <script>
+      $date = document.getElementById("login-date");
+      $button = document.getElementById("login-button");
+      $date.style.display = "none";
+      $button.onclick = function() {
+        $date.style.display = "inline";
+        $button.style.display = "none";
+      };
+    </script>
+
 
   </body>
 </html>

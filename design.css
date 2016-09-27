@@ -34,3 +34,29 @@ h1 {
 .logo img {
   width: 28px;
 }
+
+div.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Arial', serif;
+  font-size: 0.9em;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+div.login span {
+  margin-left: 5px;
+}
+
+div.login img {
+  margin-left: 5px;
+}
+
+div.login img:hover {
+  cursor: pointer;
+}
